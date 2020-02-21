@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = networking_sr
+
+[report]
+ignore_errors = True
