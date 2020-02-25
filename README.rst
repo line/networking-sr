@@ -4,7 +4,7 @@ networking-sr
 
 Networking Segment Routing is neutron plugin to manage segment routing in openstack.
 
-The networking-sr provides SRv6(Segment Rougint for IPv6) networks as neutron network resources. This project can integrate with OpenStack Neutron using ML2 mechanism of Neutron. Users can create VMs with own segment network(Tenant network) isolated from other segment networks. The VMs can access to other VMs with same segment network but they cannot access to other VMs with other segment network only. This achieves Multi-tenancy network for users and projects.
+The networking-sr provides SRv6(Segment Routing for IPv6) networks as neutron network resources. This project can integrate with OpenStack Neutron using ML2 mechanism of Neutron. Users can create VMs with own segment network(Tenant network) isolated from other segment networks. The VMs can access to other VMs with same segment network but they cannot access to other VMs with other segment network only. This achieves Multi-tenancy network for users and projects.
 
 -------------------------------
 Features
