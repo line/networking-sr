@@ -18,13 +18,13 @@ The networking-sr project currently doesn't have the following feature.
 
 * Gateway agent for network node
 
-Note: This project is PoC beucase we removed and changed many codes from our production code to support latest OpenStack version. And also we have some patches to Nova and Neutron for known issues of networking-sr but they are not included in this repository.
+Note: This project is PoC because we removed and changed many codes from our production code to support latest OpenStack version. And also we have some patches to Nova and Neutron for known issues of networking-sr but they are not included in this repository.
 
 -------------------------------
-Knwon issues
+Known issues
 -------------------------------
 * Use Kernel 5.XX and not support Kernel 4.XX
-* DHCP address isn't relased because DHCP release packet isn't sent
+* DHCP address isn't released because DHCP release packet isn't sent
 
 -------------------------------
 Performance points
@@ -41,7 +41,7 @@ TODO
 * Add gateway agent
 
 -------------------------------
-Documetation
+Documentation
 -------------------------------
 * https://speakerdeck.com/line_developers/line-data-center-networking-with-srv6
 
